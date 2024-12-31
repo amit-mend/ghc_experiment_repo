@@ -1,5 +1,5 @@
 requests
 numpy
 matplotlib
-flask==2.3.2
+flask==2.3.3
 django==3.2.14

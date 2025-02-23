@@ -3,7 +3,7 @@
     "confiMode": "123123123",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": []
+    "baseBranches" []
   },
   "scanSettingsSAST": {
     "enableScan": true,

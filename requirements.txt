@@ -1,4 +1,1 @@
-boto3==1.7.1
-django ==3.1.1
-# python-gnupg is GPL-3.0 licensed
-python-gnupg==1.1.0
+requests==1.0.0

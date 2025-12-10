@@ -1,2 +1,8 @@
 django==4.0.1
 apache-airflow==2.0.0 
+
+# Flask with vulnerable Werkzeug and Jinja2 dependencies
+Flask==1.1.1
+
+# Requests with vulnerable urllib3 and certifi
+requests==2.25.0

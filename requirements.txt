@@ -3,7 +3,7 @@ apache-airflow==3.0.0
 nupmy==2.0.0
 
 # Flask with vulnerable Werkzeug and Jinja2 dependencies
-Flask==3.0.0
+Flask==3.1.2
 
 # Requests with vulnerable urllib3 and certifi
 requests==4.0.0

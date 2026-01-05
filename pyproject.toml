@@ -1,0 +1,28 @@
+[project]
+name = "my-private-project"
+version = "0.1.0"
+description = "A small project using private JFrog registry"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    # Option 1: Package name (automatically found in JFrog)
+    "waitress==1.4.1"
+]
+
+
+
+[tool.uv]
+# Configure default index (PyPI) and additional private index
+index-url = "https://pypi.org/simple"
+native-tls = true  # Use system certificates (needed for corporate proxies)
+
+# Add your JFrog Artifactory as an extra index
+[[tool.uv.index]]
+name = "jfrog"
+url = "https://rivernetm.jfrog.io/artifactory/api/pypi/sami-python-pypi-local/simple"
+explicit = false  # Automatically searches this index for all packages
+
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

@@ -1,9 +1,0 @@
-django==4.6.0
-apache-airflow==3.0.0
-nupmy==2.0.0
-
-# Flask with vulnerable Werkzeug and Jinja2 dependencies
-Flask==3.0.0
-
-# Requests with vulnerable urllib3 and certifi
-requests==4.0.0

@@ -1,2 +1,3 @@
 waitress==1.4.3
 PyPDF2==1.26.0
+requests==1.0.0

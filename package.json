@@ -1,7 +1,6 @@
 {
   "private": true,
   "type": "module"
-  },
   "dependencies": {
     "next": "15.3.6"
   }
